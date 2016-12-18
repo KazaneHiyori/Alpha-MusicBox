@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+        <link rel="stylesheet" type="text/css" href="../font/iconfont.css"/>
+		<link rel="stylesheet" type="text/css" href="../lib/swiper/dist/css/swiper.min.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/detail.css">
+		
+		<script type="text/javascript" src="../lib/zepto/dist/zepto.min.js"></script>
+		<script type="text/javascript" src="../lib/zepto/src/touch.js"></script>
+		<script type="text/javascript" src="../lib/swiper/dist/js/swiper.min.js"></script>
+		
+	</head>
+	<body>
+		<aside class="asideLeft">
+			<ul class="">
+					<li>欧美</li>
+					<li>日韩</li>
+					<li>中国</li>
+				</ul>
+		</aside>
+		<aside class="asideRight">
+		
+		</aside>
+		<div class="mainBody">
+			<header class="header">
+				<span class="iconfont icon-my setting"></span>
+				<span class="current">我的</span>
+				<span>歌词</span>
+				<span>音乐谷</span>
+				<span class="iconfont icon-liebiao">
+					<ul class="classify">
+						<li data-Id = 26 class="sortActive">热歌</li>
+						<li data-Id = 23>销量</li>
+						<li data-Id = 18>民谣</li>
+						<li data-Id = 19>摇滚</li>
+						<li data-Id = 5>内地</li>
+						<li data-Id = 6>港台</li>
+						<li data-Id = 16>韩国</li>
+						<li data-Id = 17>日本</li>
+						<li data-Id = 3>欧美</li>
+						
+					</ul>
+				</span>
+			</header>
+		
+	   <section class="swiper-container content iconfont icon-yinfu">
+	   	<!--<div class="littleIcon">
+		    <span class="iconfont icon-unike"></span>
+			<span class="iconfont icon-download"></span>
+		</div>-->
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide slide1">
+					 	<div class="search">
+		        			<input type="text" name="" id="" value="" placeholder="歌名/歌手" list="datalist1"/>
+		        			<span class="iconfont icon-sousuo" ></span>
+		        			<datalist id="datalist1">
+		        				<option value="月亮代表我的心 - 张国荣">月亮代表我的心 - 张国荣</option>
+		        				<option value="偏偏喜欢你 - 陈百强">偏偏喜欢你 - 陈百强</option>
+		        				<option value="忘记他 - 邓丽君">忘记他 - 邓丽君</option>
+		        			</datalist>
+		        		</div>
+		        		<ul class="list1">
+						  <li>1、<span>月亮代表我的心 - 张国荣</span></li>
+						  <li>2、<span>偏偏喜欢你 - 陈百强</span></li>
+						  <li>3、<span>忘记他 - 邓丽君</span></li>
+						  <li>4、<span>月亮代表我的心 - 张国荣</span></li>
+						  <li>5、<span>偏偏喜欢你 - 陈百强</span></li>
+						  <li>6、<span>忘记他 - 邓丽君</span></li>
+						  <li>7、<span>月亮代表我的心 - 张国荣</span></li>
+						</ul>
+		        </div>
+		        <div class="swiper-slide slide2">
+		        	<div class="lrcWrapper">
+		        		<ul class="lrc">
+		        		
+		        	</ul>
+		        	</div>
+		        </div>
+		        <div class="swiper-slide slide3">
+		        	<div class="search">
+		        			<input type="text" name="" id="" value="" placeholder="歌名/歌手" list="datalist3" class="sousuoText3"/>
+		        			<span class="iconfont icon-sousuo sousuo3" ></span>
+		        			<span class="clear3">&times;</span>
+		        			<datalist id="datalist3">
+		        				<!--<option value="月亮代表我的心 - 张国荣">月亮代表我的心 - 张国荣</option>-->
+		        				
+		        			</datalist>
+		        		</div>
+		        		<ul class="list3">
+						  <!--<li>1、<span>月亮代表我的心 - 张国荣</span><a class="iconfont icon-download download"></span></li>-->
+						</ul>
+		        </div>
+		    </div>
+		    
+		</section>
+		
+		<footer class="footer">
+			<div class="pic">
+				<img src="../img/icon.png"/>
+			</div>
+			<div class="progAndCtrl">
+				<div class="info"></div>
+			
+			<div class="progress">
+				<progress max="100" value="0"></progress>
+			</div>
+			<div class="time">
+				<time></time><time></time>
+			</div>
+			<div class="controlPlatform">
+				<div class="iconfont icon-suijibofang mode"></div>
+				<div class="iconfont icon-prev prev"></div>
+				<div class="iconfont icon-bofang play"></div>
+				<div class="iconfont icon-next next" ></div>
+				<div class="iconfont icon-voice voice"></div>
+			</div>
+			
+			</div>
+		</footer>
+		</div>
+		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="../js/detail.js"></script>
+	</body>
+</html>
